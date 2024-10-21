@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplayer Lobby Game</title>
+    <link rel="stylesheet" href="style.css">
+    <img src="assets/concrete (main campus).png" id="bg" height="0" width="0">
+</head>
+<body>
+    <h1 id="title">Multiplayer Game Lobby</h1>
+    <div id="lobby">
+        <input type="text" id="lobbyIdInput" placeholder="Enter Lobby ID">
+        <button id="joinLobbyButton">Join Lobby</button>
+        <ul id="playerList"></ul>
+        <button id="readyButton">Ready</button>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
