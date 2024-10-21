@@ -1,4 +1,4 @@
-const socket = io('http://localhost:3000');
+const socket = io.connect(window.location.origin);
 
 let lobbyId;
 let playerId;
